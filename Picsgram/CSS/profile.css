@@ -387,12 +387,20 @@ html, body {
   .story-wrapper {
     margin: 0 .25em;
   }
+  .user-info
+  {
+    margin-left:-50px
+  }
   .user-page-inner {
     grid-column-gap: 1em;
     grid-row-gap: 1em;
   }
   .img-btns {
     font-size: .8em;
+  }
+  .search-bar
+  {
+    width: 150px;
   }
 }
 
