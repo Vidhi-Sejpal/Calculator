@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.8.2/css/all.css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+<link rel='stylesheet' href='https://unicons.iconscout.com/release/v2.0.1/css/unicons.css'>
+<link rel="stylesheet" href="CSS/profile.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+  <nav class="border-b px-4 py-2 bg-white">
+    <div class="d-flex justify-content-around">
+      <!-- logo -->
+      <img class="h-10" src="IMAGES/logo.png" alt="instagram" style="height: 4rem;"> 
+  
+      <!-- search-->
+      <div class="relative hidden sm:block text-gray-500 d-inline pt-3">
+        <input class="search-bar max-w-xs border rounded bg-gray-200 px-4
+              text-center outline-none focus:border-gray-400" type="search" placeholder="Search">
+      </div>
+      <div class="space-x-4 d-inline pt-3" style="margin-left: 5px;">
+        <a class="inline-block  mx-2 py-auto" href="index.html" style="text-decoration:none;">Log In</a>
+        <a class="inline-block text-sm mx-2 py-auto" href="signup.html" style="text-decoration:none;">SignUp</a>
+      </div>
+    </div>
+  </nav>
+  
+<div class="user-header-wrapper">
+  
+<div class="user-header-inner">
+  <div class="uh-left">
+    <div class="uh-image">
+      <img class="uh-image-inner" src="IMAGES/me.jpg" alt="">
+    </div>
+  </div>
+  <div class="uh-right" style="margin-left:-50px">
+    <div class="user-info" >
+      <h3 style="font-weight: 200;">vidhi_sejpal</h3>
+      <a href="#"><button class="btn"  style="border: 1px solid; color: black;background-color:white;">Edit Profile</button></a>
+      <button class="btn" id="btn" style=" background-color:white; font-size: 1.5rem;margin-left:-15px;"><i class="fas fa-cog" aria-hidden="true"></i></button>
+      <div class="modal" id="modal">
+        <div class="modal-container">
+           <div class="modal-top">
+            <i class="fas fa-times" id="close"></i>
+           </div>
+            <div class="modal-body">
+                <a><h2>Change Password</h2></a><hr>
+                <a><h2>NameTag</h2></a><hr>
+                <a><h2>Apps and Websites</h2></a><hr>
+                <a><h2>Notifications</h2></a><hr>
+                <a><h2>Privacy and Security</h2></a><hr>
+                <a><h2>Login Activity</h2></a><hr>
+                <a><h2>Check Email</h2></a><hr>
+                <a><h2>Report a problem</h2></a><hr>  
+                <a href="index.html" style="text-decoration: none;"><h2>Log Out</h2></a>
+                
+            </div>     
+        </div>
+    </div>
+    </div>
+    <div class=user-links>
+      <a><span>131</span> Posts</a>
+      <a><span>1089</span> Followers</a>
+      <a>Following <span>388</span></a>
+    </div>
+    <div class="user-bio">
+      <p class="user-bio-name pb-2">Vidhi Sejpal</p>
+      <p>This is a photography account 😄</p>
+    </div>
+  </div>
+</div>
+</div>
+<div class="user-stories">
+<div class="user-stories-inner">
+  <div class="story-wrapper">
+    <div class="story-inner">
+      <img class="story-img" src="IMAGES/h1.jpg" alt="">
+    </div>
+    <h2>Cakes ✌</h2>
+  </div>
+  <div class="story-wrapper">
+    <div class="story-inner">
+      <img class="story-img" src="IMAGES/h2.jpg" alt="">
+    </div>
+    <h2>Travel 🛫</h2>
+  </div>
+  <div class="story-wrapper">
+    <div class="story-inner">
+      <img class="story-img" src="IMAGES/h3.jpg" alt="">
+    </div>
+    <h2>Food 🍕</h2>
+  </div>
+</div>
+</div>
+
+
+<ul class="d-flex justify-content-center">
+        <!-- posts tab is active -->
+        <li class="md:border-t md:border-gray-700 md:-mt-px md:text-gray-700">
+          <a class="inline-block p-3" href="#">
+            <i class="fas fa-th-large text-xl md:text-xs"></i>
+            <span class="hidden md:inline">post</span>
+          </a>
+        </li>
+        <li>
+          <a class="inline-block p-3" href="#">
+            <i class="far fa-square text-xl md:text-xs"></i>
+            <span class="hidden md:inline">igtv</span>
+          </a>
+        </li>
+        <li>
+          <a class="inline-block p-3" href="#">
+            <i class="fas fa-user border border-gray-500
+                             px-1 pt-1 rounded text-xl md:text-xs"></i>
+            <span class="hidden md:inline">tagged</span>
+          </a>
+        </li>
+      </ul>
+
+<div class="user-page-wrapper">
+<div class="user-page-inner">
+  
+  <div id="img1" class="image-wrapper">
+    <div id="iov1" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>465 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 25 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p2.jpg" alt="">
+  </div>
+  <div id="img2" class="image-wrapper">
+    <div id="iov2" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>1 244 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 137 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p1.jpg" alt="">
+  </div>
+  <div id="img3" class="image-wrapper">
+    <div id="iov3" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>740 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 52 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p3.jpg" alt="">
+  </div>
+  <div id="img4" class="image-wrapper">
+    <div id="iov4" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>888 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 93 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p4.jpg" alt="">
+  </div>
+  <div id="img5" class="image-wrapper">
+    <div id="iov5" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>546 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 52 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p6.jpg" alt="">
+  </div>
+  <div id="img6" class="image-wrapper">
+    <div id="iov6" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>412 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 30 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p5.jpg" alt="">
+  </div>
+  <div id="img7" class="image-wrapper">
+    <div id="iov7" class="img-overlay-wrapper">
+      <div class="img-btns">
+        <p>482 <i class="uil uil-heart-alt"></i> &nbsp&nbsp 22 <i class="uil uil-comment"></i></p>
+      </div>
+      <div class="img-overlay"></div>
+    </div>
+    <img class="image" src="IMAGES/p7.jpg" alt="">
+  </div>
+</div>
+</div>
+<div class="user-loader">
+  <div class="loader">
+    <svg class="circular" viewBox="25 25 50 50">
+      <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/>
+    </svg>
+  </div>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+  <script  src="JS/script.js"></script>
+
+</body>
+</html>

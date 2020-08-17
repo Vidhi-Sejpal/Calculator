@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+nav{
+    background: white;
+}
+.nav-wrapper
+{
+    background-color:#FFFFFF ;
+    
+}
+.fa-instagram
+{
+    font-size: 2rem;
+    color: #262626;
+}
+.text
+{
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.search-bar
+{
+    margin: 0;
+    margin-left: 280px;
+    height: 31px;
+    width: 220px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+.col
+{
+    margin-top: -81px;
+}
+
+.fa-heart-o {
+
+    cursor: pointer;
+}
+  
+span .fa-heart {
+    color: red;
+    cursor: pointer;
+}
+.fa-bookmark {
+    float: right;
+   
+}
+  
+span .fa-bookmark {
+    color:black;
+    cursor: pointer;
+    float: right;
+}
+.nav-icons
+{
+    font-size: 1.8rem;
+    color: #262626;
+    margin-right: -20px;
+}
+
+.nav-icons:hover
+{
+    font-size: 1.7rem;
+    color: #262626;
+    text-decoration: none;
+}
+.card-div
+{
+    margin: 0;
+    margin-top: 61px;
+    margin-bottom:60px;
+    /*height: 600px;*/
+}
+
+.post-name
+{
+    color:#262626;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.page-image
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: 0;
+    margin-left: 15px;
+}
+.card-icons img
+{
+    height: 1.4rem;
+    margin-top: -5px;
+    color:black;
+}
+.likes
+{
+    color: black;
+    margin-top: -10px;
+    font-weight:500;
+}
+.username
+{
+    color:#262626;
+    font-weight: 500;
+    margin-top: -5px;
+}
+.comments
+{
+    color:#00376B;
+}
+.minutes
+{
+    color:#8E8E8E;
+    margin-top: -10px;
+}
+.add-comment
+{
+    height:3rem ;
+    width:100%;
+    /*width: 615px;*/
+    background-color: #FFFFFF;
+    margin: 0;
+    margin-left: 0;
+    border: 1px solid #e6e6e6;
+}
+
+/* User Loader */
+.user-loader {
+    min-height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    position: relative;
+    width: 75px;
+  }
+  .circular {
+    animation: rotate 2s linear infinite;
+    height: 100%;
+    width: 100%;
+  }
+  .path {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+    animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+    stroke-linecap: round;
+  }
+  /* Keyframes */
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes dash {
+    0% {
+      stroke-dasharray: 1, 200;
+      stroke-dashoffset: 0;
+    }
+    50% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -35px;
+    }
+    100% {
+      stroke-dasharray: 89, 200;
+      stroke-dashoffset: -124px;
+    }
+  }
+  @keyframes color {
+    100%, 0% {
+      stroke:#da2c4d;
+    }
+    40% {
+      stroke:#007bff;
+    }
+    66% {
+      stroke: #28a745;
+    }
+    80%, 90% {
+      stroke: #f8ab37;
+    }
+  }
